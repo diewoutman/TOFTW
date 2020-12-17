@@ -7,8 +7,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,17 +29,17 @@ jobs:
         uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.1
         with:
           # Github access token token used to deploy on gh_pages. You can find it on Github.
-          github_access_token: ANGULARDEPLOY
+          github_access_token: ${{secrets.ANGULARDEPLOY}}
           # The directory of the angular project, in which all the commands will run
           angular_project_dir: ./
           # Build configuration for the angular app
           build_configuration: production
           # base href for the app
-          base_href: /
+          base_href: /TOFTW/
           # branch on which the angular build will be deployed
           deploy_branch: gh-pages
           # The folder in which `ng build` provides its output. This is the folder which will be deployed to the `deploy_branch`.
-          angular_dist_build_folder: dist
+          angular_dist_build_folder: dist/TOFTW/
           # If the action should run 'ng lint'
           run_lint: true
           # Will not fail the step if anything fails
