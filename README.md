@@ -1,5 +1,27 @@
 # TOFTW
 
+For those who got here and have no idea what is happening.
+One thing i like about social media, is sharing my favorite tracks.
+With the built in sharing functionality the spotify app gives you, it's never been more easy to share your favorite tracks.
+So i have been doing this, slowly but steady.
+On my instagram profile i share a track once a week in my instagram story. Most of the time it's a track i have been listening the most that week.
+
+Because i am a programmer, and have to keep up with modern technologies, i thought let's make a little application.
+This way i am able to share my favorite track beyond my instagram following.
+(Real talk: what following am i talking about. ha ha ha *dies a little inside* )
+
+Track of the week is a little angular project, made to get more familiar with the following:
+- newer angular versions
+- Github actions
+- Github project
+- SPA web design
+- Spotify Api
+
+So come and join me on this weird little adventure.
+We fail, we laugh but best of all we have fun.
+
+I leave you, with the default angular readme.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
